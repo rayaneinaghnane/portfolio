@@ -1,0 +1,36 @@
+# robots.txt for Rayane Inaghnane Portfolio
+
+# Allow all bots
+User-agent: *
+Allow: /
+Disallow: /assets/temp/
+Disallow: /.git/
+
+# Crawl delay (optional, in seconds)
+Crawl-delay: 1
+
+# Sitemap location
+# Update with your actual domain when deployed
+Sitemap: https://example.com/sitemap.xml
+
+# Specific bot rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /

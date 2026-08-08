@@ -1,0 +1,46 @@
+{
+  "name": "rayane-inaghnane-portfolio",
+  "version": "1.0.0",
+  "description": "Premium cinematic portfolio website for Rayane Inaghnane - Documentary Filmmaker, Visual Artist, Creative Director & Multimedia Engineer",
+  "author": "Rayane Inaghnane <rayaneinagh01@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/rayaneinaghnane/portfolio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rayaneinaghnane/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "filmmaker",
+    "documentary",
+    "visual-artist",
+    "creative-director",
+    "multimedia",
+    "morocco",
+    "cinematic"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "start": "http-server -p 8000",
+    "serve": "python -m http.server 8000",
+    "build": "echo 'No build step required for static site'",
+    "test": "echo 'No tests configured'",
+    "deploy": "echo 'Deploy to your hosting service'"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "cssnano": "^5.1.15",
+    "terser": "^5.14.2",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0",
+    "autoprefixer": "^10.4.7"
+  },
+  "optionalDependencies": {
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-webp": "^7.0.0"
+  }
+}
